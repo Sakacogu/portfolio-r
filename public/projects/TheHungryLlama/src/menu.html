@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="./output.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>The Hungry Llama</title>
+  </head>
+  <body class="bg-[#fdf7e3] relative min-h-screen">
+
+    <header class="relative border-b border-yellow-700 px-6 py-4 flex items-center justify-between">
+        <img src="hungry_llama.png" alt="Llama Logo" class="w-16 md:w-20">
+        
+        <a href="index.html" class="absolute left-1/2 transform -translate-x-1/2 text-xl font-serif">
+            The Hungry Llama
+        </a>
+    
+        <input type="checkbox" class="peer hidden" id="burger" />
+        <label for="burger" class="absolute right-6 flex flex-col justify-center md:hidden">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 mt-1 bg-black"></div>
+            <div class="w-6 h-0.5 mt-1 bg-black"></div>
+        </label>
+    
+        <nav class="hidden md:flex space-x-4">
+            <a href="menu.html" class="text-black hover:text-yellow-700 transition duration-500">Menu</a>
+            <a href="about.html" class="text-black hover:text-yellow-700 transition duration-500">About us</a>
+            <a href="contact.html" class="text-black hover:text-yellow-700 transition duration-500">Contact us</a>
+        </nav>
+    
+        <nav class="absolute right-3 w-64 h-60 top-18 hidden peer-checked:flex flex-col items-stretch justify-evenly text-lg rounded-md bg-yellow-700 py-4 space-y-2 md:hidden z-50">
+            <a href="menu.html" class="text-white hover:text-yellow-300 transition duration-500 border-b-2 border-amber-50 w-full text-center">Menu</a>
+            <a href="about.html" class="text-white hover:text-yellow-300 transition duration-500 border-b-2 border-amber-50 w-full text-center">About us</a>
+            <a href="contact.html" class="text-white hover:text-yellow-300 transition duration-500 border-b-2 border-amber-50 w-full text-center">Contact us</a>
+        </nav>
+    </header>
+
+ <main class="relative space-y-6 [&_p]:pb-14 [&_h3]:flex-wrap text-center ">
+ <a id="top"></a>
+
+<div>
+    <h1 class="flex justify-center text-4xl font-bold text-gray-800 pt-8 pb-0 mb-0">Menu</h1>
+</div>
+
+<div>
+<a href="#scroll" class="hover:text-yellow-700 transition duration-500 p-2">Starters</a>
+<a href="#scroll1" class="hover:text-yellow-700 transition duration-500 p-2">Main Courses</a>
+<a href="#scroll2" class="hover:text-yellow-700 transition duration-500 p-2">Sandwiches</a>
+<a href="#scroll3" class="hover:text-yellow-700 transition duration-500 p-2">Sides</a>
+</div>
+
+<div class="flex pr-2">
+    <a href="#" id="scrollToTopButton" class="hidden fixed bottom-5 end-5 rounded-full bg-yellow-700 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-800 active:shadow-lg">Up</a>
+</div>
+
+<div>
+    <h2 id="scroll" class="flex justify-center text-3xl font-bold text-white bg-yellow-700 outline-2 outline-offset-2 outline-black">Starters</h2>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/PowerBowl.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">Mr. Caesar</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5 pb-10">Chicken Caesar Salad with Romaine Lettuce, Grilled Chicken, Parmesan Cheese, and Caesar Dressing</p>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/SauceOnTheSideBowl.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">The Try Hard</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Classic Cobb Salad with Grilled Chicken, Avocado, Bacon, Hard-Boiled Eggs, Tomatoes, and Blue Cheese Dressing</p>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/TheFruitSalad.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">I Dare You</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Asian Chicken Salad with Shredded Chicken, Mandarin Oranges, Crispy Wontons, and Sesame Ginger Dressing</p>
+    <img id="llama" class="relative flex left-20 w-10" src="images/lil'dude.png" alt="Page Llama">
+</div>
+
+
+<div>
+    <h2 id="scroll1" class="flex justify-center text-3xl font-bold text-white bg-yellow-700 outline-2 outline-offset-2 outline-black">Main Courses</h2>
+</div>
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/JuicyProteinBowl.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">Go Nuts</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Southwest Chicken Salad with Grilled Chicken, Corn, Black Beans, Avocado, Tomatoes, and Chipotle Ranch Dressing</p>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/RefreshnerBowl.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">Aw Kalamata</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Grilled Chicken Salad with Mixed Greens, Grilled Chicken, Cherry Tomatoes, Red Onion, and Balsamic Vinaigrette</p>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/BLTBowl.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">Like Meemaw</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Greek Chicken Salad with Grilled Chicken, Feta Cheese, Cucumbers, Kalamata Olives, and Lemon-Olive Oil Dressing</p>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/XLProteinBowl.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">Buffalo Blues</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Buffalo Chicken Salad with Crispy Chicken Tenders, Mixed Greens, Carrots, Celery, Blue Cheese Crumbles, and Buffalo Ranch Dressing</p>
+</div>
+
+
+<div>
+    <h2 id="scroll2" class="flex justify-center text-3xl font-bold text-white bg-yellow-700 outline-2 outline-offset-2 outline-black">Sandwiches</h2>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/FlatBreadSandwitch.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">Sweet Classics</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Grilled Chicken Panini with Mozzarella Cheese, Roasted Red Peppers, and Pesto Mayo</p>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/BaconSaladSandwitch.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">CSS Champion</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Chicken Salad Sandwich with Shredded Chicken, Grapes, Almonds, and Lettuce on Whole Wheat Bread</p>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/MashedSandwitch.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">For the Soft Hearted<3</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Buffalo Chicken Panini with Crispy Chicken Tenders, Mixed Greens, Blue Cheese Crumbles, and Buffalo Ranch Dressing in a Flour Panini</p>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/ChickenLicken.png" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">THE OFFICIAL CHICKIN LICKIN</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Buffalo Chicken wrap with Crispy Chicken Tenders, Mixed Greens, Blue Cheese Crumbles, and Buffalo Ranch Dressing in a Soft Flour Panini</p>
+    <img id="llama" class="relative left-10 w-20" src="images/standL.png" alt="Page Llama">
+</div>
+
+
+<div>
+    <h2 id="scroll3" class="flex justify-center text-3xl font-bold text-white bg-yellow-700 outline-2 outline-offset-2 outline-black">Sides</h2>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/SPF.jpg" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">Soul Nourishment</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Sweet Potato Fries</p>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/GPF.jpg" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">Lil' Extra</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Garlic Parmesan Fries</p>
+</div>
+
+<div class="flex justify-center text-center flex-wrap">    
+    <img src="images/GrilledVeg.jpeg" alt="Food Image" class="w-1/3 object-cover rounded-md flex flex-wrap">
+</div>
+<div>
+    <h3 class="flex justify-center text-2xl font-bold italic text-gray-800 pb-0 mb-0">Hello Healthy</h3>
+</div>
+<div class="flex justify-center text-center flex-wrap">
+    <p class="text-gray-800 ml-1.5">Grilled Vegetables</p>
+</div>
+
+
+<div class="bottom-0 left-0 right-0 bg-yellow-700 text-white p-4 text-center">
+    <ul>
+    <li>Address: 1404 Food road, Foodville, CA 90210</li>
+    <li>Phone number: 555-3212</li>
+    <li>Email: frontdesk@hungryllama.com</li>
+    <li>Open every day: 10:30-23:00</li>
+  </ul>
+ </div>
+<script src="menuScript.js"></script>
+</body>
+</html>

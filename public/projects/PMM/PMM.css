@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    min-height: 100vh;
+  }
+  
+  .container {
+    position: relative;
+    width: 650px; 
+    height: 650px;  
+    background-color: #252c18;
+  }
+  
+  .box {
+    position: absolute;
+  }
+
+  .box1 {
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 85px;
+    background-color: #c3cad2;
+  }
+  
+
+  .box2 {
+    top: 0;
+    left: 158px; 
+    width: 244px;
+    height: 85px;
+    background-color: #d4d6d1; 
+  }
+  
+    .box3 {
+    top: 0;
+    left: 410px;
+    width: 182px;
+    height: 85px;
+    background-color: #d7b95f; 
+  }
+  
+  .box4 {
+    top: 94px;
+    left: 82;
+    width: 320px;
+    height: 300px;
+    background-color: #b05140; 
+  }
+  
+  .box5 {
+    top: 254px;
+    left: 412px; 
+    width: 64px;
+    height: 140px;
+    background-color: #d4d6d1;
+  }
+  
+  .box6 {
+    top: 254px;
+    left: 484px; 
+    width: 108px;
+    height: 140px;
+    background-color: #d4d6d1;
+  }
+  
+  .box7 {
+    top: 508px;
+    left: 0;
+    width: 74px;
+    height: 142px;
+    background-color: #d7b95f;
+  }
+  
+  .box8 {
+    top: 404px;
+    left: 258px;
+    width: 144px;
+    height: 72px;
+    background-color: #d4d6d1;
+  }
+  
+  .box9 {
+    top: 620px;
+    left: 252px;
+    width: 340px;
+    height: 30px;
+    background-color: #d2d4cf;
+  }
+  
+  .box10 {
+    top: 404px;
+    left: 412px;
+    width: 180px;
+    height: 72px;
+    background-color: #d4d6d1;
+  }
+
+  .box11 {
+    top: 94px;
+    left: 411px;
+    width: 182px;
+    height: 150px;
+    background-color: #dfc368;
+  }
+  .box12 {
+    top: 94px;
+    left: 0px;
+    width: 74px;
+    height: 144px;
+    background-color: #d4d6d1;
+  }
+  .box13 {
+    top: 248px;
+    left: 0px;
+    width: 74px;
+    height: 250px;
+    background-color: #c3cad2;
+  }
+  .box14 {
+    top: 486px;
+    left: 258px;
+    width: 144px;
+    height: 72px;
+    background-color: #c3cad2;
+  }
+  .box15 {
+    top: 486px;
+    left: 412px;
+    width: 180px;
+    height: 124px;
+    background-color: #2b426e;
+  }
+  .box16 {
+    top: 0px;
+    left: 600px;
+    width: 50px;
+    height: 482px;
+    background-color: #c3cad2;
+  }
+  .box17 {
+    top: 490px;
+    left: 600px;
+    width: 50px;
+    height: 160px;
+    background-color: #b05140;
+  }
+  .box18 {
+    top: 568px;
+    left: 82px;
+    width: 160px;
+    height: 82px;
+    background-color: #c3cad2;
+  }

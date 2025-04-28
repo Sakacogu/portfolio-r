@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link href="./output.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+      <title>The Hungry Llama</title>
+    </head>
+    <body class="bg-[#fdf7e3] relative min-h-screen">
+
+
+      <div class="absolute top-[230px] right-[45px] flex items-center z-50">
+        <div class="relative">
+          <img id="llama1" class="w-[30px] sm:w-[35px] md:w-[50px] lg:w-[60px]" src="images/dude.png" alt="dude missing">
+        </div>
+      </div>
+
+      <div class="absolute top-[158px] sm:top-[143px] md:top-[144px] lg:top-[145px] left-[40px] sm:left-[120px] md:left-[250px] lg:left-[380px] flex items-center z-50">
+        <div class="relative">
+          <img id="llama2" class="w-[40px] sm:w-[50px] md:w-[60px] lg:w-[60px]" src="images/cutie.png" alt="cutie missing">
+        </div>
+      </div>
+
+
+      <div class="absolute bottom-[120px] left-[30px] flex items-center z-50">
+        <div class="relative">
+          <img id="llama3" class="w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px]" src="images/layL.png" alt="layL missing">
+        </div>
+      </div>
+
+      <div class="absolute top-[87px] sm:top-[86px] md:top-[100px] lg:top-[100px] left-4 flex items-center z-50">
+        <div class="relative">
+          <img id="llama4" class="w-[50px] sm:w-[60px] md:w-[70px] lg:w-[70px] h-[60px] sm:h-[70px] md:h-[80px] lg:h-[80px]" src="images/layLD.png" alt="layLD missing">
+        </div>
+      </div>
+
+
+      <div class="absolute bottom-[120px] right-10 flex items-center z-50">
+        <div class="relative">
+          <img id="llama5" class="w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] h-[70px] sm:h-[70px] md:h-[90px] lg:h-[100px]" src="images/layR.png" alt="layR missing">
+        </div>
+      </div>
+
+
+      <div class="absolute bottom-[117px] right-[184px] flex items-center z-50">
+        <div class="relative">
+          <img id="llama6" class="w-[55px]" src="images/standR.png" alt="standR missing">
+        </div>
+      </div>
+
+
+      <div class="absolute top-[148px] md:top-[165px] right-[65px] sm:right-[65px] md:right-[165px] lg:right-[355px] flex items-center z-50">
+        <div class="relative">
+          <img id="llama7" class="w-[70px]" src="images/standL.png" alt="standL missing">
+        </div>
+      </div>
+
+      <header class="relative border-b border-yellow-700 px-6 py-4 flex items-center justify-between">
+          <img src="hungry_llama.png" alt="Llama Logo" class="w-16 md:w-20">
+        
+          <a href="index.html" class="absolute left-1/2 transform -translate-x-1/2 text-xl font-serif">
+              The Hungry Llama
+          </a>
+    
+          <input type="checkbox" class="peer hidden" id="burger" />
+          <label for="burger" class="absolute right-6 flex flex-col justify-center md:hidden">
+              <div class="w-6 h-0.5 bg-black"></div>
+              <div class="w-6 h-0.5 mt-1 bg-black"></div>
+              <div class="w-6 h-0.5 mt-1 bg-black"></div>
+          </label>
+    
+          <nav class="hidden md:flex space-x-4">
+              <a href="menu.html" class="text-black hover:text-yellow-700 transition duration-500">Menu</a>
+              <a href="about.html" class="text-black hover:text-yellow-700 transition duration-500">About us</a>
+              <a href="contact.html" class="text-black hover:text-yellow-700 transition duration-500">Contact us</a>
+          </nav>
+    
+          <nav class="absolute right-3 w-64 h-60 top-18 hidden peer-checked:flex flex-col items-stretch justify-evenly text-lg rounded-md bg-yellow-700 py-4 space-y-2 md:hidden z-50">
+              <a href="menu.html" class="text-white hover:text-yellow-300 transition duration-500 border-b-2 border-amber-50 w-full text-center">Menu</a>
+              <a href="about.html" class="text-white hover:text-yellow-300 transition duration-500 border-b-2 border-amber-50 w-full text-center">About us</a>
+              <a href="contact.html" class="text-white hover:text-yellow-300 transition duration-500 border-b-2 border-amber-50 w-full text-center">Contact us</a>
+          </nav>
+      </header>
+    
+
+      <main class="relative space-y-12">
+
+          <div class="flex justify-center pt-8">
+              <h1 class="text-4xl font-bold text-gray-800 justify-center">About us</h1>
+          </div>
+
+          <div class="text-center p-15 text-xl justify-center border border-yellow-700 max-w-180 rounded-lg shadow-2xl mx-auto ">
+              <p class="py-4">Welcome to The Hungry Llama, a family-owned restaurant that offers a unique and unforgettable dining experience. Our restaurant is inspired by the bold flavors and warm hospitality of South America, and we pride ourselves on serving fresh and locally sourced ingredients.</p> 
+            
+              <p class="py-4">At The Hungry Llama, we believe that food is not just a necessity, but an adventure, and we aim to take our customers on a culinary journey through our carefully crafted menu. Whether you're in the mood for a hearty meal or a light bite, our diverse menu has something for everyone. We also offer a wide selection of refreshing beverages and cocktails to complement your meal.</p>
+        
+              <p class="pt-4">Come join us at The Hungry Llama, </p>
+              <p class="italic"> where good food meets great company.</p> 
+          </div>
+
+          <div class="bottom-0 left-0 right-0 bg-yellow-700 text-white p-4 text-center">
+              <ul>
+              <li>Address: 1404 Food road, Foodville, CA 90210</li>
+              <li>Phone number: 555-3212</li>
+              <li>Email: frontdesk@hungryllama.com</li>
+              <li>Open every day: 10:30-23:00</li>
+              </ul>
+           </div>
+          </main>
+      </body>
+    </html>
+  
